@@ -13,10 +13,12 @@ class InfoSubViewController: UIViewController {
     @IBOutlet weak var InfoSubViewTextView: UITextView!
     
     var thankYouText = String()
+    var thankYouTitle = String()
     
     override func viewWillAppear(animated: Bool) {
         
       InfoSubViewTextView.text = thankYouText
+        self.navigationItem.title = thankYouTitle
         
     }
     
@@ -26,7 +28,7 @@ class InfoSubViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         //lets print thankYouText to see if it got here via the segue
-        print("thankYouText")
+        print(thankYouText)
     }
 
     override func didReceiveMemoryWarning() {

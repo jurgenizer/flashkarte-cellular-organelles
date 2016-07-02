@@ -26,7 +26,7 @@ class SearchController: UIViewController {
     
     
     var flashcard: Flashcard?
-    let baseSearchURL = "https://google.com/search?q=apple developer"
+    let baseSearchURL = "https://google.com/search?q=wikipedia"
     
     override func viewDidLoad() {
         super.viewDidLoad()
