@@ -38,7 +38,7 @@
                                 <rect key="frame" x="20" y="72" width="560" height="508"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
@@ -223,9 +223,14 @@
                                     <outlet property="delegate" destination="GvS-Zk-sMF" id="ehq-Pc-bRk"/>
                                 </connections>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="C2s-kX-2Fg">
+                                <rect key="frame" x="282" y="249" width="37" height="37"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="C2s-kX-2Fg" firstAttribute="centerX" secondItem="zfI-XA-ybH" secondAttribute="centerX" id="1GA-vR-WT0"/>
+                            <constraint firstItem="C2s-kX-2Fg" firstAttribute="centerY" secondItem="zfI-XA-ybH" secondAttribute="centerY" id="5b6-81-xLx"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rhY-Un-L6I" secondAttribute="trailing" constant="-20" id="Gyi-R0-rfW"/>
                             <constraint firstItem="ZML-Pu-rV6" firstAttribute="top" secondItem="rhY-Un-L6I" secondAttribute="bottom" id="LV7-ee-SZP"/>
                             <constraint firstItem="rhY-Un-L6I" firstAttribute="top" secondItem="ar1-TG-F0b" secondAttribute="bottom" id="emu-bv-R9a"/>
@@ -234,6 +239,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Search" id="ADT-hm-oKK"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="C2s-kX-2Fg" id="DYU-cY-uvH"/>
                         <outlet property="webView" destination="rhY-Un-L6I" id="fwk-ne-C1E"/>
                     </connections>
                 </viewController>
