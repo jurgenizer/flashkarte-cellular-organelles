@@ -11,7 +11,7 @@ import UIKit
 class InfoTableViewController: UITableViewController {
     
     //create some data variables
-    var refAndAcknowlegements = ["References": ["Wikipedia contributors, \"Cell biology,\" Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Cell_biology&oldid=727762852 (accessed July 2, 2016)."], "Acknowledgement": ["This Flashcard app is based on a tutorial available at https://swifteducation.github.io/. Further code modifications and enhancements have subsequently been made, creating the FlashKarte range."]]
+    var refAndAcknowlegements = ["References": ["Wikipedia contributors, \"Cell biology,\" Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Cell_biology&oldid=727762852 (accessed July 2, 2016)."], "Acknowledgement": ["This Flashcard app is based on a tutorial available at https://swifteducation.github.io/. Further code modifications and enhancements have subsequently been made, creating the free FlashKarte range."]]
     
     
     //A struct for the references and their data, e.g A, B, etc.
@@ -62,7 +62,7 @@ class InfoTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("myCell", forIndexPath: indexPath)
         
         // Configure the cell...
-        //cell.textLabel?.text = "hello"
+        
         cell.textLabel?.text = objectArray[indexPath.section].sectionName
         cell.accessoryType = .DisclosureIndicator
 

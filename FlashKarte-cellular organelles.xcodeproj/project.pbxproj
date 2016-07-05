@@ -12,6 +12,7 @@
 		2AF16BD61B0E6C1C00A4759B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF16BD41B0E6C1C00A4759B /* Main.storyboard */; };
 		2AF16BD81B0E6C1C00A4759B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF16BD71B0E6C1C00A4759B /* Images.xcassets */; };
 		2AF16BDB1B0E6C1C00A4759B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AF16BD91B0E6C1C00A4759B /* LaunchScreen.xib */; };
+		7A5EBA2C1D2B9A0A00007590 /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EBA2B1D2B9A0A00007590 /* ViewControllerUtils.swift */; };
 		7A90D5DF1D2552C7008BE616 /* InfoSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A90D5DE1D2552C7008BE616 /* InfoSubViewController.swift */; };
 		7A90D5E31D2561D0008BE616 /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A90D5E21D2561D0008BE616 /* InfoTableViewController.swift */; };
 		F902517B1B3A0DE20092DD44 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902517A1B3A0DE20092DD44 /* Deck.swift */; };
@@ -28,6 +29,7 @@
 		2AF16BD51B0E6C1C00A4759B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AF16BD71B0E6C1C00A4759B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2AF16BDA1B0E6C1C00A4759B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7A5EBA2B1D2B9A0A00007590 /* ViewControllerUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUtils.swift; sourceTree = "<group>"; };
 		7A90D5DE1D2552C7008BE616 /* InfoSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoSubViewController.swift; sourceTree = "<group>"; };
 		7A90D5E21D2561D0008BE616 /* InfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
 		F902517A1B3A0DE20092DD44 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				7A90D5E21D2561D0008BE616 /* InfoTableViewController.swift */,
 				7A90D5DE1D2552C7008BE616 /* InfoSubViewController.swift */,
 				F971F6341B3CAA2300E7B5B4 /* SearchController.swift */,
+				7A5EBA2B1D2B9A0A00007590 /* ViewControllerUtils.swift */,
 				F9628B7F1B3C685E00900D1E /* DefinitionController.swift */,
 				2AF16BD71B0E6C1C00A4759B /* Images.xcassets */,
 				2AF16BD91B0E6C1C00A4759B /* LaunchScreen.xib */,
@@ -170,6 +173,7 @@
 				F9628B801B3C685E00900D1E /* DefinitionController.swift in Sources */,
 				2AF16BD31B0E6C1C00A4759B /* TermController.swift in Sources */,
 				2AF16BD11B0E6C1C00A4759B /* AppDelegate.swift in Sources */,
+				7A5EBA2C1D2B9A0A00007590 /* ViewControllerUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
