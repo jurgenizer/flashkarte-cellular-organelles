@@ -35,6 +35,13 @@ class SearchController: UIViewController, UIWebViewDelegate {
             url = NSURL(string: escapedURLString) {
                 webView.loadRequest(NSURLRequest(URL: url))
         }
+        
+        if let patternImage = UIImage(named: "Pattern") {
+            view.backgroundColor = UIColor(patternImage: patternImage)
+        }
+        
+        
+        
     }
     
     private func searchURLString(base: String, term: String) -> String? {
