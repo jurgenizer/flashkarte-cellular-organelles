@@ -140,13 +140,13 @@
                             <constraint firstAttribute="trailingMargin" secondItem="9Hg-c3-mOi" secondAttribute="trailing" constant="-20" id="pyj-MI-Ko3"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Term" id="CgF-uU-8f3">
+                    <navigationItem key="navigationItem" title="Organelle" id="CgF-uU-8f3">
                         <barButtonItem key="leftBarButtonItem" title="Info" id="467-lr-4f1">
                             <connections>
                                 <segue destination="e9S-XH-tRk" kind="show" identifier="infoSegue" id="UZ6-gM-4IB"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Definition" id="fAt-2K-V3f">
+                        <barButtonItem key="rightBarButtonItem" title="Function" id="fAt-2K-V3f">
                             <connections>
                                 <segue destination="6VB-Ks-WWD" kind="show" id="bNy-fm-8hB"/>
                             </connections>
@@ -177,7 +177,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -189,7 +189,7 @@
                             <constraint firstItem="3pO-r8-N7b" firstAttribute="top" secondItem="pqh-Dv-3Dd" secondAttribute="bottom" constant="20" id="zDO-oO-TMh"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Definition" id="vZb-pH-x1c">
+                    <navigationItem key="navigationItem" title="Function" id="vZb-pH-x1c">
                         <barButtonItem key="rightBarButtonItem" title="Search" id="24O-oq-JZI">
                             <connections>
                                 <segue destination="GvS-Zk-sMF" kind="show" id="hqO-aL-bS3"/>
