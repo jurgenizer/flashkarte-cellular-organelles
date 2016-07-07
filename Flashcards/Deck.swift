@@ -34,7 +34,7 @@ class Deck {
         let cardData = [
 "Centriole" : "Anchor for cytoskeleton.",
 "Cell membrane (plasma membrane)" : "Support, protection, regulates what goes in and out of the cell",
-"Cell wall" : " extra layer of protection and gives structural support (only found in plant cells).",
+"Cell wall" : "Extra layer of protection and gives structural support (only found in plant cells).",
 "Chloroplast" : "Photosynthesis (only found in plant cells)",
 "Cilium" : "Movement in or of external medium",
 "Cytoplasm" : "Contents of the main fluid-filled space inside cells, chemical reactions happen in this jelly-like substance.",

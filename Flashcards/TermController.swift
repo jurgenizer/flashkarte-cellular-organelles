@@ -30,6 +30,13 @@ class TermController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let patternImage = UIImage(named: "Pattern") {
+            view.backgroundColor = UIColor(patternImage: patternImage)
+        }
+        
+        
+        
     }
 
     override func viewWillAppear(animated: Bool) {

@@ -32,6 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //change the color of the status bar
         application.statusBarStyle = UIStatusBarStyle.LightContent
+     
         
         return true
     }
