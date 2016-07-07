@@ -27,6 +27,10 @@ class DefinitionController: UIViewController {
         if let card = flashcard {
             definition.text = card.definition
         }
+        
+        if let patternImage = UIImage(named: "Pattern-light") {
+            view.backgroundColor = UIColor(patternImage: patternImage)
+        }
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
