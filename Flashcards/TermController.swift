@@ -44,6 +44,7 @@ class TermController: UIViewController {
         if let flashcard = deck.randomCard {
             self.flashcard = flashcard
             termButton.setTitle(flashcard.term, forState: .Normal)
+            termButton.titleLabel?.textAlignment = NSTextAlignment.Center
         }
     }
     
