@@ -25,8 +25,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="FKLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Maq-kq-g4G">
+                                <rect key="frame" x="212" y="238" width="177" height="177"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177" id="1ra-iC-XHg"/>
+                                    <constraint firstAttribute="height" constant="177" id="Edw-VR-Zbp"/>
+                                </constraints>
+                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="cellular organelles" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="Hfw-Pz-LeX">
-                                <rect key="frame" x="20" y="530" width="560" height="50"/>
+                                <rect key="frame" x="20" y="423" width="560" height="50"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -35,11 +42,14 @@
                         <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Hfw-Pz-LeX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="6Nr-yd-86C"/>
+                            <constraint firstItem="Hfw-Pz-LeX" firstAttribute="top" secondItem="Maq-kq-g4G" secondAttribute="bottom" constant="8" id="7yX-TG-4jg"/>
+                            <constraint firstItem="Maq-kq-g4G" firstAttribute="top" secondItem="GJd-Yh-RWb" secondAttribute="bottom" constant="8" id="HRF-ce-gNx"/>
                             <constraint firstAttribute="centerX" secondItem="GJd-Yh-RWb" secondAttribute="centerX" id="Q3B-4B-g5h"/>
                             <constraint firstItem="Hfw-Pz-LeX" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="eM6-iR-8CQ"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Hfw-Pz-LeX" secondAttribute="bottom" constant="20" id="g5K-42-t96"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Hfw-Pz-LeX" secondAttribute="bottom" constant="127" id="grG-Ul-zVY"/>
                             <constraint firstItem="GJd-Yh-RWb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="bottom" multiplier="1/3" constant="1" id="moa-c2-u7t"/>
                             <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" symbolic="YES" id="x7j-FC-K8j"/>
+                            <constraint firstItem="Maq-kq-g4G" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yFf-yU-ECj"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -48,4 +58,7 @@
             <point key="canvasLocation" x="289" y="380"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="FKLogo" width="220" height="211"/>
+    </resources>
 </document>

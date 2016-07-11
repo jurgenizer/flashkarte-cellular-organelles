@@ -66,12 +66,12 @@
 		2AF16BCD1B0E6C1C00A4759B /* Flashcards */ = {
 			isa = PBXGroup;
 			children = (
-				7A207D151D3389D00091055E /* LaunchScreen.storyboard */,
 				2AF16BD01B0E6C1C00A4759B /* AppDelegate.swift */,
 				2AF16BD21B0E6C1C00A4759B /* TermController.swift */,
 				F96F18801B11FEC600832E90 /* Flashcard.swift */,
 				F902517A1B3A0DE20092DD44 /* Deck.swift */,
 				2AF16BD41B0E6C1C00A4759B /* Main.storyboard */,
+				7A207D151D3389D00091055E /* LaunchScreen.storyboard */,
 				7A90D5E21D2561D0008BE616 /* InfoTableViewController.swift */,
 				7A90D5DE1D2552C7008BE616 /* InfoSubViewController.swift */,
 				F971F6341B3CAA2300E7B5B4 /* SearchController.swift */,
