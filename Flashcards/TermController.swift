@@ -31,6 +31,7 @@ class TermController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //add the background pattern
         if let patternImage = UIImage(named: "Pattern") {
             view.backgroundColor = UIColor(patternImage: patternImage)
         }

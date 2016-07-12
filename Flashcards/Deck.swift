@@ -22,6 +22,8 @@ class Deck {
     
     private let cards: [Flashcard]
 
+    
+    //choose a random card from the deck, if there are cards
     var randomCard: Flashcard? {
         if cards.isEmpty {
             return nil

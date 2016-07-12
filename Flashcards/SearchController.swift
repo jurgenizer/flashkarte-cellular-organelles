@@ -51,7 +51,7 @@ class SearchController: UIViewController, UIWebViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-  
+    //function to start activity indicator
     func webViewDidStartLoad(webView: UIWebView) {
         
         activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.WhiteLarge
@@ -61,12 +61,10 @@ class SearchController: UIViewController, UIWebViewDelegate {
         activityIndicator.hidden = false
       
         activityIndicator.startAnimating()
-       
-       
         
     }
 
-
+  //function to stop activity indicator
    func webViewDidFinishLoad(webView: UIWebView) {
     
         activityIndicator.stopAnimating()

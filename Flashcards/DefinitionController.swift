@@ -28,6 +28,7 @@ class DefinitionController: UIViewController {
             definition.text = card.definition
         }
         
+        //add a light version of background pattern
         if let patternImage = UIImage(named: "Pattern-light") {
             view.backgroundColor = UIColor(patternImage: patternImage)
         }
