@@ -17,7 +17,7 @@
                BlueprintIdentifier = "2AF16BCA1B0E6C1C00A4759B"
                BuildableName = "FlashKarte-cellular organelles.app"
                BlueprintName = "FlashKarte-cellular organelles"
-               ReferencedContainer = "container:FlashKarte-cellular organelles.xcodeproj">
+               ReferencedContainer = "container:FlashKarte cellular organelles.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "2AF16BCA1B0E6C1C00A4759B"
             BuildableName = "FlashKarte-cellular organelles.app"
             BlueprintName = "FlashKarte-cellular organelles"
-            ReferencedContainer = "container:FlashKarte-cellular organelles.xcodeproj">
+            ReferencedContainer = "container:FlashKarte cellular organelles.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "2AF16BCA1B0E6C1C00A4759B"
             BuildableName = "FlashKarte-cellular organelles.app"
             BlueprintName = "FlashKarte-cellular organelles"
-            ReferencedContainer = "container:FlashKarte-cellular organelles.xcodeproj">
+            ReferencedContainer = "container:FlashKarte cellular organelles.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "2AF16BCA1B0E6C1C00A4759B"
             BuildableName = "FlashKarte-cellular organelles.app"
             BlueprintName = "FlashKarte-cellular organelles"
-            ReferencedContainer = "container:FlashKarte-cellular organelles.xcodeproj">
+            ReferencedContainer = "container:FlashKarte cellular organelles.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

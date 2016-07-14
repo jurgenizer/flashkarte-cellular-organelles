@@ -126,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2AF16BC61B0E6C1C00A4759B /* Build configuration list for PBXProject "FlashKarte-cellular organelles" */;
+			buildConfigurationList = 2AF16BC61B0E6C1C00A4759B /* Build configuration list for PBXProject "FlashKarte cellular organelles" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -298,7 +298,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AF16BC61B0E6C1C00A4759B /* Build configuration list for PBXProject "FlashKarte-cellular organelles" */ = {
+		2AF16BC61B0E6C1C00A4759B /* Build configuration list for PBXProject "FlashKarte cellular organelles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AF16BE81B0E6C1C00A4759B /* Debug */,
