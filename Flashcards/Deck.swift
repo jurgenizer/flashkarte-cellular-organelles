@@ -20,7 +20,7 @@ import Foundation
 
 class Deck {
     
-    private let cards: [Flashcard]
+    fileprivate let cards: [Flashcard]
 
     
     //choose a random card from the deck, if there are cards

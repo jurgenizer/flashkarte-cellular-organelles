@@ -40,17 +40,17 @@ class TermController: UIViewController {
         
     }
 
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         if let flashcard = deck.randomCard {
             self.flashcard = flashcard
-            termButton.setTitle(flashcard.term, forState: .Normal)
-            termButton.titleLabel?.textAlignment = NSTextAlignment.Center
+            termButton.setTitle(flashcard.term, for: UIControlState())
+            termButton.titleLabel?.textAlignment = NSTextAlignment.center
         }
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if let definitionController = segue.destinationViewController as? DefinitionController {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let definitionController = segue.destination as? DefinitionController {
             definitionController.flashcard = flashcard
         }
     }

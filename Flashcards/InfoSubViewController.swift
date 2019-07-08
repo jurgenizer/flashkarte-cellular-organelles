@@ -15,7 +15,7 @@ class InfoSubViewController: UIViewController {
     var thankYouText = String()
     var thankYouTitle = String()
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         
       InfoSubViewTextView.text = thankYouText
         self.navigationItem.title = thankYouTitle

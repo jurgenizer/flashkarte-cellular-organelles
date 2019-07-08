@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2AF16BCB1B0E6C1C00A4759B /* FlashKarte-cellular organelles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlashKarte-cellular organelles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF16BCB1B0E6C1C00A4759B /* FlashKarte Cellular Organelles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlashKarte Cellular Organelles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF16BCF1B0E6C1C00A4759B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AF16BD01B0E6C1C00A4759B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AF16BD21B0E6C1C00A4759B /* TermController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermController.swift; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		2AF16BCC1B0E6C1C00A4759B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AF16BCB1B0E6C1C00A4759B /* FlashKarte-cellular organelles.app */,
+				2AF16BCB1B0E6C1C00A4759B /* FlashKarte Cellular Organelles.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2AF16BCA1B0E6C1C00A4759B /* FlashKarte-cellular organelles */ = {
+		2AF16BCA1B0E6C1C00A4759B /* FlashKarte Cellular Organelles */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AF16BEA1B0E6C1C00A4759B /* Build configuration list for PBXNativeTarget "FlashKarte-cellular organelles" */;
+			buildConfigurationList = 2AF16BEA1B0E6C1C00A4759B /* Build configuration list for PBXNativeTarget "FlashKarte Cellular Organelles" */;
 			buildPhases = (
 				2AF16BC71B0E6C1C00A4759B /* Sources */,
 				2AF16BC81B0E6C1C00A4759B /* Frameworks */,
@@ -105,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = "FlashKarte-cellular organelles";
+			name = "FlashKarte Cellular Organelles";
 			productName = Flashcards;
-			productReference = 2AF16BCB1B0E6C1C00A4759B /* FlashKarte-cellular organelles.app */;
+			productReference = 2AF16BCB1B0E6C1C00A4759B /* FlashKarte Cellular Organelles.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,10 +123,11 @@
 					2AF16BCA1B0E6C1C00A4759B = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = 7XSDD5VRKP;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
-			buildConfigurationList = 2AF16BC61B0E6C1C00A4759B /* Build configuration list for PBXProject "FlashKarte cellular organelles" */;
+			buildConfigurationList = 2AF16BC61B0E6C1C00A4759B /* Build configuration list for PBXProject "FlashKarte Cellular Organelles" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -139,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AF16BCA1B0E6C1C00A4759B /* FlashKarte-cellular organelles */,
+				2AF16BCA1B0E6C1C00A4759B /* FlashKarte Cellular Organelles */,
 			);
 		};
 /* End PBXProject section */
@@ -275,11 +276,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jurgen Geitner (7XSDD5VRKP)";
 				INFOPLIST_FILE = Flashcards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jurgengeitner.FlashKarte;
-				PRODUCT_NAME = "FlashKarte-cellular organelles";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jurgengeitner.FlashKarte-Cellular-Organelles";
+				PRODUCT_NAME = "FlashKarte Cellular Organelles";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -287,18 +290,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jurgen Geitner (7XSDD5VRKP)";
 				INFOPLIST_FILE = Flashcards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jurgengeitner.FlashKarte;
-				PRODUCT_NAME = "FlashKarte-cellular organelles";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jurgengeitner.FlashKarte-Cellular-Organelles";
+				PRODUCT_NAME = "FlashKarte Cellular Organelles";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AF16BC61B0E6C1C00A4759B /* Build configuration list for PBXProject "FlashKarte cellular organelles" */ = {
+		2AF16BC61B0E6C1C00A4759B /* Build configuration list for PBXProject "FlashKarte Cellular Organelles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AF16BE81B0E6C1C00A4759B /* Debug */,
@@ -307,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AF16BEA1B0E6C1C00A4759B /* Build configuration list for PBXNativeTarget "FlashKarte-cellular organelles" */ = {
+		2AF16BEA1B0E6C1C00A4759B /* Build configuration list for PBXNativeTarget "FlashKarte Cellular Organelles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AF16BEB1B0E6C1C00A4759B /* Debug */,

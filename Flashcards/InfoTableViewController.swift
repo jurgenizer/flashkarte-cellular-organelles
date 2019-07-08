@@ -45,37 +45,37 @@ class InfoTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return objectArray.count
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return objectArray[section].sectionData.count
     }
 
 
  
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
  
-        let cell = tableView.dequeueReusableCellWithIdentifier("myCell", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
         
         // Configure the cell...
         
         cell.textLabel?.text = objectArray[indexPath.section].sectionName
-        cell.accessoryType = .DisclosureIndicator
+        cell.accessoryType = .disclosureIndicator
 
         return cell
     }
    
-    override func tableView(tableView: UITableView, willSelectRowAtIndexPath indexPath: NSIndexPath) -> NSIndexPath? {
+    override func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
         
         return indexPath
         
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
       
         
      
@@ -97,13 +97,13 @@ class InfoTableViewController: UITableViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue,sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue,sender: Any?) {
         
-        if let destination = segue.destinationViewController as? InfoSubViewController {
+        if let destination = segue.destination as? InfoSubViewController {
             
-          let indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow!
+          let indexPath : IndexPath = self.tableView.indexPathForSelectedRow!
             
-          let selectedCell = tableView.dequeueReusableCellWithIdentifier("myCell", forIndexPath: indexPath)
+          let selectedCell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
             
         
             
@@ -119,7 +119,7 @@ class InfoTableViewController: UITableViewController {
             
            selectedCell.setSelected(false, animated: true)
             
-           selectedCell.accessoryType = .DisclosureIndicator
+           selectedCell.accessoryType = .disclosureIndicator
             
             
         }

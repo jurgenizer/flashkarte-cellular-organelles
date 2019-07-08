@@ -31,17 +31,17 @@ class SearchController: UIViewController, UIWebViewDelegate {
         super.viewDidLoad()
         
         if let card = flashcard,
-            escapedURLString = searchURLString(baseSearchURL, term: card.term),
-            url = NSURL(string: escapedURLString) {
-                webView.loadRequest(NSURLRequest(URL: url))
+            let escapedURLString = searchURLString(baseSearchURL, term: card.term),
+            let url = URL(string: escapedURLString) {
+                webView.loadRequest(URLRequest(url: url))
         }
         
         
     }
     
-    private func searchURLString(base: String, term: String) -> String? {
+    fileprivate func searchURLString(_ base: String, term: String) -> String? {
         return "\(baseSearchURL) \(term)"
-            .stringByAddingPercentEncodingWithAllowedCharacters(.URLQueryAllowedCharacterSet())
+            .addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
     }
 
 
@@ -52,20 +52,20 @@ class SearchController: UIViewController, UIWebViewDelegate {
     }
     
     //function to start activity indicator
-    func webViewDidStartLoad(webView: UIWebView) {
+    func webViewDidStartLoad(_ webView: UIWebView) {
         
-        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.WhiteLarge
+        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.whiteLarge
         
         activityIndicator.color = UIColor(red: 255.0/255.0, green: 0.0/255.0, blue: 128.00/255.0, alpha: 1.0)
         
-        activityIndicator.hidden = false
+        activityIndicator.isHidden = false
       
         activityIndicator.startAnimating()
         
     }
 
   //function to stop activity indicator
-   func webViewDidFinishLoad(webView: UIWebView) {
+   func webViewDidFinishLoad(_ webView: UIWebView) {
     
         activityIndicator.stopAnimating()
         activityIndicator.hidesWhenStopped = true
